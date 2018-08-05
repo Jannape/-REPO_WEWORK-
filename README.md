@@ -10,23 +10,23 @@ Con WeWork lo hacemos realidad.Esta App te permite registrar tu visita en unos c
 ## 🙋 Proceso de Diseño de WeWork 🙋
 ## 🙋 Descubrimiento e Investigación 
  [checkbox:checked] Inmersión
-### [x] Estudio Etnográfico
-### [x] Entrevistas
-### [x] Benchmark
+### 📂Estudio Etnográfico
+### 📂Entrevistas
+### 📂Benchmark
 
 ## 🙋 Síntesis y Definición 
-### [x] Mapa de Empatía
-### [x] Arquetipos 
-### [x] Affinity Map
-### [x] StoryBoard
-### [x] Customer Journey Map
-### [x] Point of view
-### [x] HMW / What if?
+### 📂Mapa de Empatía
+### 📂Arquetipos 
+### 📂Affinity Map
+### 📂StoryBoard
+### 📂Customer Journey Map
+### 📂Point of view
+### 📂HMW / What if?
 
 ## 🙋 Ideación 
-### [x] Propuesta de valor
-### [x] User Flow
-### [x] Wire Flow
+### 📂Propuesta de valor
+### 📂User Flow
+### 📂Wire Flow
 
 ## 🙋 Prototipado 
 ## 🙋 User Testing 
@@ -34,29 +34,29 @@ Con WeWork lo hacemos realidad.Esta App te permite registrar tu visita en unos c
 
 ### 📁 Anexo 1
  Recursos relacionados a Descubrimiento e Investigación.
-[x] link1
-[x] link2
-[x] link3
+📎 link1
+📎 link2
+📎 link3
 ### 📁 Anexo 2
  Recursos relacionados a Síntesis y Definición.
-[x] link1
-[x] link2
-[x] link3
+📎 link1
+📎 link2
+📎 link3
 ### 📁 Anexo 3
  Recursos relacionados a Ideación.
-[x] link1
-[x] link2
-[x] link3
+📎 link1
+📎 link2
+📎 link3
 ### 📁 Anexo 4 
   Recursos relacionados a Prototipado.
-[x] link1
-[x] link2
-[x] link3
+📎 link1
+📎 link2
+📎 link3
 ### 📁 Anexo 5 
 Recursos relacionados a User Testing
-[x] link1
-[x] link2
-[x] link3
+📎 link1
+📎 link2
+📎 link3
 ## 🙋 Referencias (Fuentes de Información)
 
 ## Entregables Obligatorios 
