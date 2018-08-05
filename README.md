@@ -33,10 +33,10 @@ Con WeWork lo hacemos realidad.Esta App te permite registrar tu visita en unos c
 ## 🙋 Anexos
 
 ### 📁 Anexo 1
- Recursos relacionados a Descubrimiento e Investigación.
-link1
-link2
-link3
+ * Recursos relacionados a Descubrimiento e Investigación.
+* link1
+* link2
+* link3
 ### 📁 Anexo 2
  Recursos relacionados a Síntesis y Definición.
 link1
