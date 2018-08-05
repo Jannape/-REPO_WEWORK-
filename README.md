@@ -9,7 +9,7 @@ Con WeWork lo hacemos realidad.Esta App te permite registrar tu visita en unos c
 
 ## 🙋 Proceso de Diseño de WeWork 🙋
 ## 🙋 Descubrimiento e Investigación 
-### [x] Inmersión
+### * [ ] Inmersión
 ### [x] Estudio Etnográfico
 ### [x] Entrevistas
 ### [x] Benchmark
