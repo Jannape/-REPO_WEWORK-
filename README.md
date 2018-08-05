@@ -7,9 +7,9 @@ El registro de visitantes en una empresa en América Latina es un proceso tedios
 Con WeWork lo hacemos realidad.Esta App te permite registrar tu visita en unos cuantos pasos  y avisar a la persona a la que visitas acerca de tu llegada y el motivo de tu visita 😉😉😉.
 ## 🙋 Objetivos 
 
-## 🙋 Proceso de Diseño de WeWork 🙋
+##  Proceso de Diseño de WeWork :
 ## 🙋 Descubrimiento e Investigación 
- [checkbox:checked] Inmersión
+### 📂Inmersión
 ### 📂Estudio Etnográfico
 ### 📂Entrevistas
 ### 📂Benchmark
