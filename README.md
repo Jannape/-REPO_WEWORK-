@@ -1,5 +1,5 @@
 # 💚WE WORK💚
-## ¡Registra tu visita,nunca fue tan fácil!
+## ¡Registrar tu visita,nunca fue tan fácil!
 # Proyecto Final Common Core
 ## Preámbulo
 * ¿Por qué seguimos registrando visitantes como si fuera 1985?😩😩😩 
