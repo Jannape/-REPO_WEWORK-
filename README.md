@@ -3,7 +3,7 @@
 # Proyecto Final Common Core
 ## Preámbulo
 **¿Por qué seguimos registrando visitantes como si fuera 1985?** 😩😩😩 
-El registro de visitantes en una empresa en América Latina es un proceso tedioso y manual. Lo común es que una persona esté en la recepción tomando nota - a veces con papel y lápiz - de cada visitante. Por razones de seguridad, usualmente piden a cada visitante dejar una identificación. Si vivimos en la era digital, ¿Qué tal si sustituimos a la persona en recepción por una tablet? ¿Qué tal si en lugar de pedir una identificación, tomamos una foto?.
+El registro de visitantes en una empresa en América Latina es un proceso tedioso y manual. Lo común es que una persona esté en la recepción tomando nota - a veces con papel y lápiz - de cada visitante. Por razones de seguridad, usualmente piden a cada visitante dejar una identificación. Si vivimos en la era digital, **¿Qué tal si sustituimos a la persona en recepción por una tablet?** **¿Qué tal si en lugar de pedir una identificación, tomamos una foto?**.
 Con WeWork lo hacemos realidad.Esta App te permite registrar tu visita en unos cuantos pasos  y avisar a la persona a la que visitas acerca de tu llegada y el motivo de tu visita 😉😉😉
 
 ## Introducción
