@@ -39,24 +39,24 @@ Con WeWork lo hacemos realidad.Esta App te permite registrar tu visita en unos c
 * link3
 ### 📁 Anexo 2
  Recursos relacionados a Síntesis y Definición.
-link1
-link2
-link3
+* link1
+* link2
+* link3
 ### 📁 Anexo 3
  Recursos relacionados a Ideación.
-link1
-link2
-link3
+* link1
+* link2
+* link3
 ### 📁 Anexo 4 
   Recursos relacionados a Prototipado.
-link1
-link2
-link3
+* link1
+* link2
+* link3
 ### 📁 Anexo 5 
 Recursos relacionados a User Testing
-📎 link1
-📎 link2
-📎 link3
+* link1
+* link2
+* link3
 ## 🙋 Referencias (Fuentes de Información)
 
 ## Entregables Obligatorios 
