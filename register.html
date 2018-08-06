@@ -18,9 +18,9 @@
     <form id="register-visitant">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <header class="container"> 
+                <header class="container">
                     <li class="breadcrumb-item active btn-lg" aria-current="page">
-                            <p class="text-xl-left btn-lg">We work</p>
+                        <p class="text-xl-left btn-lg">We work</p>
                     </li>
                 </header>
             </ol>
@@ -31,25 +31,35 @@
                     <label for="name-visitant">Nombre</label>
                     <input type="text" class="form-control " id="name-visitant" placeholder="Escribe tu nombre" required>
                 </div>
-           
+
 
                 <div class="col-md-12 mb-3">
                     <label for="dni-visitant">D.N.I</label>
-                    <input type="text" class="form-control" id="dni-visitant" placeholder="Escribe tu número de DNI" required>
+                    <input type="number" class="form-control" id="dni-visitant" placeholder="Escribe tu número de DNI" required>
                 </div>
 
                 <div class="col-md-12 mb-3">
                     <label for="search-visitant">¿A quién buscas?</label>
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" id="search-visitant" placeholder="Escribe su nombre" aria-label="Recipient's username" aria-describedby="button-addon2">
-                            <button class="btn btn-primary" type="button" id="button-addon2">Buscar</button>
+                        <input type="text" class="form-control" id="search-visitant" placeholder="Escribe su nombre" aria-label="Recipient's username"
+                            aria-describedby="button-addon2">
+                        <button class="btn btn-primary" type="button" id="button-addon2">Buscar</button>
                     </div>
                 </div>
                 <div class="col-md-12 mb-3">
-                        <label for="reason-visitant">Motivo de tu visita</label>
-                        <input type="text" class="form-control" id="reason-visitant" placeholder="Escribe el motivo de tu visita" required>
-                    </div>
-                <button type="button" class="btn btn-dark btn-lg btn-block">Tomar foto</button>
+                    <label for="reason-visitant">Motivo de tu visita</label>
+                    <input type="text" class="form-control" id="reason-visitant" placeholder="Escribe el motivo de tu visita" required>
+                </div>
+
+                <div id="img-camera">
+                    <!-- previsualizacion -->
+                    <video id="video"></video>
+                    <!---->
+                    <img id="img-visitant" />
+                    <canvas id="canvas"></canvas>
+                </div>
+                
+                <button type="button" id='btn-camera' class="btn btn-dark btn-lg btn-block">Tomar foto</button>
                 <button type="button" id="btn-register-visitant" class="btn btn-primary btn-lg btn-block">Enviar Datos </button>
             </div>
     </form>
@@ -61,4 +71,5 @@
 <script src="src/model/firebase-config.js"></script>
 <script src="src/model/data.js"></script>
 <script src="src/controller/main.js"></script>
+
 </html>
