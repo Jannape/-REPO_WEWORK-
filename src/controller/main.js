@@ -1,15 +1,28 @@
+const btnRegister = document.getElementById('btn-register-visitant');
+const formRegisterVisitant = document.getElementById('register-visitant');
 
-const btnRegister = document.getElementById('btn-register');
-const inputName = document.getElementById('input-name').value;
-const inputDNI = document.getElementById('input-dni');
-const inputNameVisited = document.getElementById('input-name-visited');
-const btntSearchVisited = document.getElementById('btn-search-visited');
-const inputReason = document.getElementById('input-reason');
+let video = document.getElementById('video');
+let canvas = document.getElementById('canvas');
+let btnCamera = document.getElementById('btn-camera');
+let img = document.getElementById('img-visitant');
 
 
-btnRegister.addEventListener('click', (event) => {
-    event.preventDefault();
-    const inputName = document.getElementById('input-name').value;
-    validatorNameUser(inputName);
+btnRegister.addEventListener('click', () => {
+    let nameVisitant = document.getElementById('name-visitant');
+    let dniVisitant = document.getElementById('dni-visitant');
+    let searchVisitant = document.getElementById('search-visitant');
+    let reasonVisitant = document.getElementById('reason-visitant');
 
-  });
+    window.createVisitantInFirebase(nameVisitant, dniVisitant, searchVisitant, reasonVisitant);
+    formRegisterVisitant.reset();
+})
+
+
+
+window.onload = () =>{
+    viewImageCamera(video,canvas,img,btnCamera); 
+}
+
+/*btnCamera.addEventListener('click', ()=>{
+    save(canvas,img);
+})*/

@@ -15,12 +15,12 @@
 </head>
 
 <body>
-    <form>
+    <form id="register-visitant">
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb">
-                <header class="container"> 
+                <header class="container">
                     <li class="breadcrumb-item active btn-lg" aria-current="page">
-                            <p class="text-xl-left btn-lg">We work</p>
+                        <p class="text-xl-left btn-lg">We work</p>
                     </li>
                 </header>
             </ol>
@@ -28,36 +28,48 @@
         <div class="container">
             <div class="form-row">
                 <div class="col-md-12 mb-3">
-                    <label for="validationDefault01">Nombre</label>
-                    <input type="text" class="form-control " id="input-name" placeholder="Escribe tu nombre" required>
-                </div>
-           
-
-                <div class="col-md-12 mb-3">
-                    <label for="validationDefault02">D.N.I</label>
-                    <input type="text" class="form-control" id="input-dni" placeholder="Escribe tu número de DNI" required>
+                    <label for="name-visitant">Nombre</label>
+                    <input type="text" class="form-control " id="name-visitant" placeholder="Escribe tu nombre" required>
                 </div>
 
+
                 <div class="col-md-12 mb-3">
-                    <label for="basic-url">¿A quién buscas?</label>
+                    <label for="dni-visitant">D.N.I</label>
+                    <input type="number" class="form-control" id="dni-visitant" placeholder="Escribe tu número de DNI" required>
+                </div>
+
+                <div class="col-md-12 mb-3">
+                    <label for="search-visitant">¿A quién buscas?</label>
                     <div class="input-group mb-3">
-                        <input type="text" class="form-control" id="input-name-visited" placeholder="Escribe su nombre" aria-label="Recipient's username" aria-describedby="button-addon2">
-                            <button class="btn btn-primary" type="button" id="btn-search-visited">Buscar</button>
+                        <input type="text" class="form-control" id="search-visitant" placeholder="Escribe su nombre" aria-label="Recipient's username"
+                            aria-describedby="button-addon2">
+                        <button class="btn btn-primary" type="button" id="button-addon2">Buscar</button>
                     </div>
                 </div>
                 <div class="col-md-12 mb-3">
-                        <label for="validationDefault02">Motivo de tu visita</label>
-                        <input type="text" class="form-control" id="input-reason" placeholder="Escribe el motivo de tu visita" required>
-                    </div>
-                <button type="button" class="btn btn-dark btn-lg btn-block"> <a href="photo.html" >Tomar fotos</a></button>
-                <button id="btn-register" class="btn btn-primary btn-lg btn-block" type="submit" >Enviar Datos </button>
+                    <label for="reason-visitant">Motivo de tu visita</label>
+                    <input type="text" class="form-control" id="reason-visitant" placeholder="Escribe el motivo de tu visita" required>
+                </div>
+
+                <div id="img-camera">
+                    <!-- previsualizacion -->
+                    <video id="video"></video>
+                    <!---->
+                    <img id="img-visitant" />
+                    <canvas id="canvas"></canvas>
+                </div>
+                
+                <button type="button" id='btn-camera' class="btn btn-dark btn-lg btn-block">Tomar foto</button>
+                <button type="button" id="btn-register-visitant" class="btn btn-primary btn-lg btn-block">Enviar Datos </button>
             </div>
     </form>
 
 </body>
-<script src="src/model/data.js"></script>
-<script src="src/controller/main.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
 <script src="src/view/assets/js/bootstrap.js"></script>
 <script src="src/view/assets/js/popper.min.js"></script>
+<script src="src/model/firebase-config.js"></script>
+<script src="src/model/data.js"></script>
+<script src="src/controller/main.js"></script>
 
 </html>
