@@ -5,7 +5,8 @@ let video = document.getElementById('video');
 let canvas = document.getElementById('canvas');
 let btnCamera = document.getElementById('btn-camera');
 let img = document.getElementById('img-visitant');
-
+let savePhoto = document.getElementById('btn-save-photo');
+savePhoto.style.display = 'none';
 
 btnRegister.addEventListener('click', () => {
     let nameVisitant = document.getElementById('name-visitant');
@@ -18,11 +19,7 @@ btnRegister.addEventListener('click', () => {
 })
 
 
-
-window.onload = () =>{
-    viewImageCamera(video,canvas,img,btnCamera); 
-}
-
-/*btnCamera.addEventListener('click', ()=>{
-    save(canvas,img);
-})*/
+btnCamera.addEventListener('click', ()=>{
+    savePhoto.style.display = 'block';
+    viewImageCamera(video,canvas,img,savePhoto); 
+})
