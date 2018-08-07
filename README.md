@@ -10,20 +10,34 @@ Es por ello que con nuestra App ComunalVisited buscamos automatizar este proceso
 
 ## 🙋 Objetivos 
 * Generales 
-Di
-* Específicos 
-
-
+Crear una experiencia agradable  para visitantes al momento de registrar su visita en nuestra App CoworkingVisited
 ##  Proceso de Diseño de WeWork :
 ## 🙋 Descubrimiento e Investigación 
-### 📂Inmersión
-### 📂Estudio Etnográfico
+### 📂Inmersión:
+Se acompaño al personal responsable del registro de visitantes  del local xxxx, observándose los sgt :
+* Los datos del visitante era almacenados en un excel y a veces en una hoja bond.
+* Se le hacía esperar más de 10 min  al visitante para saber si la persona a la que visitaba lo podía atender.
+* Se solicita el documento de identidad  del visitante cangeandolo con un fotoshet con el nombre de Invitado.
 ### 📂Entrevistas
+El s.r Diego gerente de Comunal Coworking nos comentó que no contaba con un registro de asistentes,que necesitaba ver cuantos de los  visitantes necesitaban el servicio de estacionamiento , para poder hacer una mejor gestión de los espacios y brindar más disponibilidad,
+también nos pudo compartir su preocupación  por hacer sentir cómodos a sus comuneros y tambien a las personas que los visitan.
+Pudimos concluir que cómo valor importante que desean transmitir como Comunal Coworking  es la comodidad y calidez tanto a comuneros como a visitantes.
+
 ### 📂Benchmark
+ Se comparó apps similares  como Envoy y Wework
+https://www.dropbox.com/s/lkacd6fcrahz6re/Libro1.xlsx?dl=0
 
 ## 🙋 Síntesis y Definición 
 ### 📂Mapa de Empatía
+Después de la entrevista al gerente general de la Empresa pudimos construir el siguiente mapa de empatía.
+https://www.dropbox.com/s/k6m3d77623en29u/Imagen1.png?dl=0
+Despúes de entrevistar a un visitante pudimos crear el siguiente mapa de empatía.
+link
+Después de entrevistar al recepcionista de Comunal Coworking se creó el siguiente mapa de empatía.
+link
+
 ### 📂Arquetipos 
+
 ### 📂Affinity Map
 ### 📂StoryBoard
 ### 📂Customer Journey Map
