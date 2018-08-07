@@ -1,22 +1,43 @@
 ##  Proyecto Final Common Core 
 # 📱 WE WORK 📱
 ## ¡Registrar tu visita,nunca fue tan fácil!
+Con Coworking Visited lo hacemos realidad.Esta App te permite registrar tu visita en unos cuantos pasos  y avisar a la persona a la que visitas acerca de tu llegada y el motivo de tu visita 😉😉😉.
 ## 😩¿Por qué seguimos registrando visitantes como si fuera 1985? 😩 
 
-El registro de visitantes en una empresa en América Latina es un proceso tedioso y manual. Lo común es que una persona esté en la recepción tomando nota - a veces con papel y lápiz - de cada visitante. Por razones de seguridad, usualmente piden a cada visitante dejar una identificación. Si vivimos en la era digital, **¿Qué tal si sustituimos a la persona en recepción por una tablet?** **¿Qué tal si en lugar de pedir una identificación, tomamos una foto?**.
-Con WeWork lo hacemos realidad.Esta App te permite registrar tu visita en unos cuantos pasos  y avisar a la persona a la que visitas acerca de tu llegada y el motivo de tu visita 😉😉😉.
-## 🙋 Objetivos 
+Coworking Comunal es una empresa muy reconocida,que brinda  los mejores estándares de oficina,para que solo te centres en tu trabajo,se hace responsable de los gastos de implementación , administración y servicios.Es una empresa centrada en el usuario y piensa hasta en los detalles de tu oficina, desde el color de la pared hasta la posición del enchufe.Sin embargo a pesar que maneja  una basta plataforma con toda la data de sus oficinas y comuneros no cuenta con la data de visitantes diarios dejando de lado información relevante como el nombre de la persona visitante,su hora de salida , hora de llegada, su necesidades (Si desean un espacio en el estacinamiento), limitandose así a poder ofrecer una experiencia agradable a sus vistantes.
+Por otro  lado la empresa dueña del local alquilado por Comunal Coworking,  maneja su propio control de registro de visitantes mostrandose como un procesos tedioso y manual,que como resultado tiene a una persona en recepción  tomando nota a veces con papel y lapiz en otras oportunidades en un archivo de Excel,haciendo esperar a los visitantes largos tramos de tiempo,  ya que despúes de este primer registro , los visitantes son filtrados a las oficinas correspondientes donde pasan nuevamente otro registro y en el caso de Comunal Coworking no son registrados, proyectando así una mala experiencia a los visitantes por la mala atención.
+Es por ello que con nuestra App ComunalVisited buscamos automatizar este proceso, donde ambas empresas  salen benficiadas al manejar la data de los visitantes en tiempo real, minimizando el tiempo de espera de los visitantes y asi lograndoles brindar una buen servicio a tanto Comuneros como Visitantes de Comunal Coworking y la empresa "XXXX".
 
+## 🙋 Objetivos 
+* Generales 
+Crear una experiencia agradable  para visitantes al momento de registrar su visita en nuestra App CoworkingVisited
 ##  Proceso de Diseño de WeWork :
 ## 🙋 Descubrimiento e Investigación 
-### 📂Inmersión
-### 📂Estudio Etnográfico
+### 📂Inmersión:
+Se acompaño al personal responsable del registro de visitantes  del local xxxx, observándose los sgt :
+* Los datos del visitante era almacenados en un excel y a veces en una hoja bond.
+* Se le hacía esperar más de 10 min  al visitante para saber si la persona a la que visitaba lo podía atender.
+* Se solicita el documento de identidad  del visitante cangeandolo con un fotoshet con el nombre de Invitado.
 ### 📂Entrevistas
+El s.r Diego gerente de Comunal Coworking nos comentó que no contaba con un registro de asistentes,que necesitaba ver cuantos de los  visitantes necesitaban el servicio de estacionamiento , para poder hacer una mejor gestión de los espacios y brindar más disponibilidad,
+también nos pudo compartir su preocupación  por hacer sentir cómodos a sus comuneros y tambien a las personas que los visitan.
+Pudimos concluir que cómo valor importante que desean transmitir como Comunal Coworking  es la comodidad y calidez tanto a comuneros como a visitantes.
+
 ### 📂Benchmark
+ Se comparó apps similares  como Envoy y Wework
+https://www.dropbox.com/s/lkacd6fcrahz6re/Libro1.xlsx?dl=0
 
 ## 🙋 Síntesis y Definición 
 ### 📂Mapa de Empatía
+Después de la entrevista al gerente general de la Empresa pudimos construir el siguiente mapa de empatía.
+https://www.dropbox.com/s/k6m3d77623en29u/Imagen1.png?dl=0
+Despúes de entrevistar a un visitante pudimos crear el siguiente mapa de empatía.
+link
+Después de entrevistar al recepcionista de Comunal Coworking se creó el siguiente mapa de empatía.
+link
+
 ### 📂Arquetipos 
+
 ### 📂Affinity Map
 ### 📂StoryBoard
 ### 📂Customer Journey Map
