@@ -63,5 +63,7 @@ window.viewImageCamera = (video, canvas, img, btnSave) => {
         let imgData = canvas.toDataURL('image/png');
         img.setAttribute('src', imgData);
     })
+
+    
 }
 
