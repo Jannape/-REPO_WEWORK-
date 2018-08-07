@@ -1,69 +1,93 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>wework</title>
-    <link rel="stylesheet" href="src/view/assets/css/styles.css">
-    <link rel="stylesheet" href="src/view/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="src/view/assets/css/bootstrap.css">
-    <link rel="stylesheet" href="src/view/assets/css/bootstrap-grid.css">
-    <link rel="stylesheet" href="src/view/assets/css/bootstrap.min.css">
-    <script src="src/view/assets/js/jquery-3.3.1.slim.min.js"></script>
-    <script src="src/view/assets/js/bootstrap.min.js"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Comunal Coworking</title>
+	<link rel="stylesheet" href="src/view/assets/css/style-register.css">
+	<link rel="stylesheet" href="src/view/assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="src/view/assets/css/bootstrap.css">
+	<link rel="stylesheet" href="src/view/assets/css/bootstrap-grid.css">
+	<link rel="stylesheet" href="src/view/assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+	  crossorigin="anonymous">
+	<script src="src/view/assets/js/jquery-3.3.1.slim.min.js"></script>
+	<script src="src/view/assets/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <form id="register-visitant">
-        <nav aria-label="breadcrumb">
-            <ol class="breadcrumb">
-                <header class="container">
-                    <li class="breadcrumb-item active btn-lg" aria-current="page">
-                        <p class="text-xl-left btn-lg">We work</p>
-                    </li>
-                </header>
-            </ol>
-        </nav>
-        <div class="container">
-            <div class="form-row">
-                <div class="col-md-12 mb-3">
-                    <label for="name-visitant">Nombre</label>
-                    <input type="text" class="form-control " id="name-visitant" placeholder="Escribe tu nombre" required>
-                </div>
-
-
-                <div class="col-md-12 mb-3">
-                    <label for="dni-visitant">D.N.I</label>
-                    <input type="number" class="form-control" id="dni-visitant" placeholder="Escribe tu número de DNI" required>
-                </div>
-
-                <div class="col-md-12 mb-3">
-                    <label for="search-visitant">¿A quién buscas?</label>
-                    <div class="input-group mb-3">
-                        <input type="text" class="form-control" id="search-visitant" placeholder="Escribe su nombre" aria-label="Recipient's username"
-                            aria-describedby="button-addon2">
-                        <button class="btn btn-primary" type="button" id="button-addon2">Buscar</button>
-                    </div>
-                </div>
-                <div class="col-md-12 mb-3">
-                    <label for="reason-visitant">Motivo de tu visita</label>
-                    <input type="text" class="form-control" id="reason-visitant" placeholder="Escribe el motivo de tu visita" required>
-                </div>
-
-                <div id="img-camera">
-                    <!-- previsualizacion -->
-                    <video id="video"></video>
-                    <!---->
-                    <img id="img-visitant" />
-                    <canvas id="canvas"></canvas>
-                </div>
-                
-                <button type="button" id='btn-camera' class="btn btn-dark btn-lg btn-block">Tomar foto</button>
-                <button type="button" id="btn-register-visitant" class="btn btn-primary btn-lg btn-block">Enviar Datos </button>
-            </div>
-    </form>
-
+	<header class="text-center">
+		<img src="../-REPO_WEWORK-/src/view/assets/img/comunal-logo.png" alt="">
+	</header>
+	<div class="container">
+		<form id="register-visitant">
+			<div class="form-row">
+				<div class="form-group col-sm-12">
+					<label for="name-visitant">Nombre</label>
+					<input type="text" class="form-control" id="name-visitant" placeholder="Escribe tu nombre" required>
+				</div>
+				<div class="form-group col-sm-12">
+					<label for="inputEmail">Email
+						<sub> (Opcional)</sub>
+					</label>
+					<input type="email" class="form-control" id="inputEmail" placeholder="Email">
+				</div>
+				<div class="form-group col-md-6">
+					<label for="optionDoc">Tipo de Documento</label>
+					<select id="optionDoc" class="form-control">
+						<option selected>Elige</option>
+						<option>DNI</option>
+						<option>Pasaporte</option>
+						<option>Carnet de extranjería</option>
+					</select>
+				</div>
+				<div class="form-group col-md-6">
+					<label for="company-visitant">Número de Documento</label>
+					<input type="text" class="form-control" id="dni-visitant" placeholder="Escribe tu # de documento" required>
+				</div>
+				<div class="form-group col-sm-12">
+					<label for="company-visitant">Empresa que visito
+						<sub> (Opcional)</sub>
+					</label>
+					<input type="text" class="form-control" id="company-visitant" placeholder="Escribe el nombre de la empresa que visitas">
+				</div>
+				<div class="form-group col-sm-12">
+					<label for="search-visitant">¿A quién buscas?</label>
+					<input type="text" class="form-control" id="search-visitant" placeholder="Escribe el nombre de la persona que visitas">
+				</div>
+				<div class="form-group col-sm-12">
+					<label for="reason-visitant">Motivo de tu visita
+						<sub> (Opcional)</sub>
+					</label>
+					<input type="text" class="form-control" id="reason-visitant" placeholder="Escribe el motivo de tu visita">
+				</div>
+				<div class="form-group col-sm-12">
+					<label for="reason-visitant">¿Deseas tomarte una foto?
+						<sub> (Opcional)</sub>
+					</label>
+					<div class="text-center">
+					</div>
+				</div>
+			</div>
+		</form>
+		<div id="create-photo">
+			<!-- <div id="img-camera">
+				<video id="video"></video>
+				<img id="img-visitant" />
+				<canvas id="canvas" style="display: none"></canvas>
+			</div> -->
+			<video id="video" width="640" height="480" autoplay></video>
+			<button id="snap">Snap Photo</button>
+			<canvas id="canvas" width="640" height="480"></canvas>
+		</div>
+		<div class="text-center">
+			<button type="button" id="btn-camera" class="btn btn-primary btn-lg">
+				<i class="fas fa-camera"></i>
+			</button>
+			<button type="button" id="btn-register-visitant" class="btn btn-primary btn-lg btn-block">Enviar Datos </button>
+		</div>
+	</div>
 </body>
 <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
 <script src="src/view/assets/js/bootstrap.js"></script>

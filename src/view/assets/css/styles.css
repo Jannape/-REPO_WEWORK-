@@ -1,9 +1,30 @@
+body {
+		background-size: cover;
+		/* position: fixed; */
+    background-image: url("../img/comunal.jpg");
+    /* height: 100%; */
+    /* width: 100%; */
+    /* background-repeat: no-repeat, repeat; */
+}
+
+.home {
+	margin-top: 60%;
+}
+
+.welcome {
+		width: 40%;
+}
+
 .card {
  margin-top:2%;
- 
 } 
 
 #canvas {
     display: none;
+}
+
+.btn {
+	margin: 5%;
+	display: inline-block;
 }
 
