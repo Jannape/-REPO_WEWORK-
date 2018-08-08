@@ -1,12 +1,29 @@
+body {
+		background-size: cover;
+		/* position: fixed; */
+    background-image: url("../img/comunal.jpg");
+    /* height: 100%; */
+    /* width: 100%; */
+    /* background-repeat: no-repeat, repeat; */
+}
+
+.home {
+	margin-top: 60%;
+}
+
+.welcome {
+		width: 40%;
+}
+
 .card {
  margin-top:2%;
- 
 } 
 
 #canvas {
     display: none;
 }
 
+<<<<<<< HEAD
 .switch {
     position: relative;
     display: inline-block;
@@ -63,3 +80,10 @@
     border-radius: 50%;
   }
   
+=======
+.btn {
+	margin: 5%;
+	display: inline-block;
+}
+
+>>>>>>> 249385fd424e5d9e07d02d9ae9afad0bb15666f6
