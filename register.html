@@ -18,7 +18,7 @@
 
 <body>
 	<header class="text-center">
-		<img src="../-REPO_WEWORK-/src/view/assets/img/comunal-logo.png" alt="">
+		<img src="./src/view/assets/img/comunal-logo.png">
 	</header>
 	<div class="container">
 		<form id="register-visitant">
@@ -67,24 +67,23 @@
 						<sub> (Opcional)</sub>
 					</label>
 					<div class="text-center">
+						<button type="button" id="active-camera" class="btn btn-primary btn-lg">
+							<i class="fas fa-camera"></i>
+						</button>
 					</div>
 				</div>
 			</div>
 		</form>
 		<div id="create-photo">
-			<!-- <div id="img-camera">
-				<video id="video"></video>
-				<img id="img-visitant" />
-				<canvas id="canvas" style="display: none"></canvas>
-			</div> -->
-			<video id="video" width="640" height="480" autoplay></video>
-			<button id="snap">Snap Photo</button>
-			<canvas id="canvas" width="640" height="480"></canvas>
-		</div>
-		<div class="text-center">
+			<video id="video" width="540" height="380" autoplay></video>
+			<canvas id="canvas" width="540" height="380"></canvas>
+			<div class="text-center">
 			<button type="button" id="btn-camera" class="btn btn-primary btn-lg">
 				<i class="fas fa-camera"></i>
 			</button>
+		</div>
+		</div>
+		<div class="text-center">
 			<button type="button" id="btn-register-visitant" class="btn btn-primary btn-lg btn-block">Enviar Datos </button>
 		</div>
 	</div>
