@@ -4,7 +4,8 @@ header {
 }
 
 header img {
-	margin: 2%;
+	margin: .5%;
+	width: 70px;
 }
 
 i {
@@ -18,4 +19,8 @@ sub {
 #img-visitant {
 	width: 700px;
 	height: 500px;
+}
+
+#create-photo {
+	display: none;
 }

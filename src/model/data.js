@@ -1,8 +1,10 @@
-window.createVisitantInFirebase = (name, dni, search, reason) => {
+window.createVisitantInFirebase = (name, type, dni, companySearch, search, reason) => {
 	(firebase.database().ref().child('users')).push({
 		// visitantId:firebase.auth().currentUser.uid,
 		visitantName: name.value,
+		visitantTypeDocument: type.value,
 		visitantDni: dni.value,
+		visitantCompanySearch: companySearch.value,
 		visitantSearch: search.value,
 		visitantReason: reason.value
 	}).then(() => {
@@ -75,3 +77,26 @@ window.viewImageCamera = (video, canvas, img, btnSave) => {
 		});
 	}
 }
+
+let confirmationVisitant = `
+<div class="card" style="width: 18rem;">
+  ${context}
+  <div class="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+`
+
+
+// // Create a root reference
+// var storageRef = firebase.storage().ref();
+
+// // Create a reference to 'mountains.jpg'
+// var mountainsRef = storageRef.child('mountains.jpg');
+
+// // Create a reference to 'images/mountains.jpg'
+// var mountainImagesRef = storageRef.child('images/mountains.jpg');
+
+// // While the file names are the same, the references point to different files
+// mountainsRef.name === mountainImagesRef.name            // true
+// mountainsRef.fullPath === mountainImagesRef.fullPath    // false

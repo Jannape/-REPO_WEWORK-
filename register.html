@@ -27,15 +27,9 @@
 					<label for="name-visitant">Nombre</label>
 					<input type="text" class="form-control" id="name-visitant" placeholder="Escribe tu nombre" required>
 				</div>
-				<div class="form-group col-sm-12">
-					<label for="inputEmail">Email
-						<sub> (Opcional)</sub>
-					</label>
-					<input type="email" class="form-control" id="inputEmail" placeholder="Email">
-				</div>
 				<div class="form-group col-md-6">
-					<label for="optionDoc">Tipo de Documento</label>
-					<select id="optionDoc" class="form-control">
+					<label for="option-document">Tipo de Documento</label>
+					<select id="option-document" class="form-control">
 						<option selected>Elige</option>
 						<option>DNI</option>
 						<option>Pasaporte</option>
@@ -47,12 +41,22 @@
 					<input type="text" class="form-control" id="dni-visitant" placeholder="Escribe tu # de documento" required>
 				</div>
 				<div class="form-group col-sm-12">
+					<label for="inputEmail">Email
+						<sub> (Opcional)</sub>
+					</label>
+					<input type="email" class="form-control" id="inputEmail" placeholder="Email">
+				</div>
+				<div class="form-group col-sm-12">
 					<label for="company-visitant">Empresa que visito
 						<sub> (Opcional)</sub>
 					</label>
 					<input type="text" class="form-control" id="company-visitant" placeholder="Escribe el nombre de la empresa que visitas">
 				</div>
 				<div class="form-group col-sm-12">
+					<!-- <label for="search-visitant">¿A quién buscas?
+						<sub> (Opcional)</sub>
+					</label>
+					<input type="text" class="form-control" id="search-visitant" placeholder="Escribe el nombre de la persona que visitas"> -->
 					<label for="search-visitant">¿A quién buscas?</label>
 					<input onkeyup="filterComuneros()" type="text" class="form-control" id="search-visitant" placeholder="Escribe el nombre de la persona que visitas">
 					<table class="table table-hover">
@@ -87,16 +91,19 @@
 			</div>
 		</form>
 		<div id="create-photo">
-			<video id="video" width="540" height="380" autoplay></video>
-			<canvas id="canvas" width="540" height="380"></canvas>
+			<video id="video" width="640" height="480" autoplay></video>
+			<canvas id="canvas" width="640" height="480"></canvas>
 			<div class="text-center">
-			<button type="button" id="btn-camera" class="btn btn-primary btn-lg">
-				<i class="fas fa-camera"></i>
-			</button>
-		</div>
+				<button type="button" id="btn-camera" class="btn btn-primary btn-lg">
+					<i class="fas fa-camera"></i>
+				</button>
+			</div>
 		</div>
 		<div class="text-center">
 			<button type="button" id="btn-register-visitant" class="btn btn-primary btn-lg btn-block">Enviar Datos </button>
+		</div>
+		<div id="cardVIsit">
+
 		</div>
 	</div>
 </body>
@@ -108,4 +115,4 @@
 <script src="src/controller/main.js"></script>
 <script src="src/model/comuneros.json"></script>
 <script src="src/controller/mainComuneros.js"></script>
-
+</html>
