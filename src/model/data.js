@@ -20,16 +20,15 @@ window.showVisitantInAdmin = (viewHMTL) => {
 		for (let key in data) {
 			elementsView += `
             <img class="card-img-top" src="assets/img/fondo.jpg" alt="Card image cap">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">${data[key].visitantName}</p>
-                                <p class="card-text">${data[key].visitantDni}</p>
-                                <p class="card-text">${data[key].visitantSearch}</p>
-                                <p class="card-text">${data[key].visitantReason}</p>
-                                <p class="card-text">
-                                    <small class="text-muted">Last updated 3 mins ago</small>
-                                </p>
-            `
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                    	<p class="card-text">${data[key].visitantName}</p>
+                    	<p class="card-text">${data[key].visitantDni}</p>
+                      <p class="card-text">${data[key].visitantSearch}</p>
+                      <p class="card-text">${data[key].visitantReason}</p>
+                      <p class="card-text">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                      </p>`
 		}
 		viewHMTL.innerHTML = elementsView;
 	})
@@ -64,13 +63,14 @@ window.viewImageCamera = (video, canvas, img, btnSave) => {
 	// })
 	// Grab elements, create settings, etc.
 
-// Get access to the camera!
-if(navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
-    // Not adding `{ audio: true }` since we only want video now
-    navigator.mediaDevices.getUserMedia({ video: true }).then(function(stream) {
-        video.src = window.URL.createObjectURL(stream);
-        video.play();
-    });
+	// Get access to the camera!
+	if (navigator.mediaDevices && navigator.mediaDevices.getUserMedia) {
+		// Not adding `{ audio: true }` since we only want video now
+		navigator.mediaDevices.getUserMedia({
+			video: true
+		}).then(function (stream) {
+			video.src = window.URL.createObjectURL(stream);
+			video.play();
+		});
+	}
 }
-}
-

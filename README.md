@@ -67,4 +67,3 @@ Por lo tanto dentro del figma no lo hemos considerado más por ser un requerimie
 ### 📁 Anexo 1
  * Fotos y videos de los testing y entrevistas realizadas.
 * link1
-
