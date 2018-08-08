@@ -54,8 +54,20 @@
 				</div>
 				<div class="form-group col-sm-12">
 					<label for="search-visitant">¿A quién buscas?</label>
-					<input type="text" class="form-control" id="search-visitant" placeholder="Escribe el nombre de la persona que visitas">
+					<input onkeyup="filterComuneros()" type="text" class="form-control" id="search-visitant" placeholder="Escribe el nombre de la persona que visitas">
+					<table class="table table-hover">
+							<thead>
+								<tr>
+					
+								</tr>
+							</thead>
+							<tbody id="tbl-list-comuneros">
+				 
+							</tbody>
+						</table>
 				</div>
+		
+					  
 				<div class="form-group col-sm-12">
 					<label for="reason-visitant">Motivo de tu visita
 						<sub> (Opcional)</sub>
@@ -94,5 +106,6 @@
 <script src="src/model/firebase-config.js"></script>
 <script src="src/model/data.js"></script>
 <script src="src/controller/main.js"></script>
+<script src="src/model/comuneros.json"></script>
+<script src="src/controller/mainComuneros.js"></script>
 
-</html>

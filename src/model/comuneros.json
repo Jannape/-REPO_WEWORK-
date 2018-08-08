@@ -1,0 +1,43 @@
+[{
+    "id": "001",
+    "nombre": "Juan Puerto",
+    "DNI": "46824955",
+    "empresa":"Comunal1"
+
+},
+{
+    "id": "002",
+    "nombre": "Robert Gonzales",
+    "DNI": "46824955",
+    "empresa":"Comunal1"
+
+},
+{
+    "id": "003",
+    "nombre": "Maria Rojas",
+    "DNI": "46824955",
+    "empresa":"Comunal1"
+
+},
+{
+    "id": "004",
+    "nombre": "Julito Pedraza",
+    "DNI": "46824955",
+    "empresa":"Comunal1"
+
+},
+{
+    "id": "005",
+    "nombre": "Maria Reyes",
+    "DNI": "46825955",
+    "empresa":"Comunal1"
+
+},
+{
+    "id": "006",
+    "nombre": "Maria Rayan",
+    "DNI": "44624955",
+    "empresa":"Comunal1"
+
+}
+]

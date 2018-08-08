@@ -48,3 +48,4 @@ document.getElementById("btn-camera").addEventListener("click", function () {
 
 	context.drawImage(video, 0, 0, 640, 480);
 });
+
