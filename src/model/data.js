@@ -12,6 +12,7 @@ window.createVisitantInFirebase = (name, type, dni, companySearch, search, reaso
 	})
 }
 
+
 window.showVisitantInAdmin = (viewHMTL) => {
 	let refVisitant = (firebase.database().ref().child('users'));
 
