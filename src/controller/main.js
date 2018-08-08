@@ -29,7 +29,7 @@ window.onload = () => {
     save(canvas,img);
 })*/
 
-document.getElementById('btn-camera').addEventListener('click', () => {
+document.getElementById('active-camera').addEventListener('click', () => {
 	document.getElementById('create-photo').style.display = 'block';
 	viewImageCamera(video, canvas, img, btnCamera);
 	formRegisterVisitant.style.display = 'none'
@@ -40,6 +40,6 @@ document.getElementById('btn-camera').addEventListener('click', () => {
 // })
 
 // Trigger photo take
-document.getElementById("snap").addEventListener("click", function () {
+document.getElementById("btn-camera").addEventListener("click", function () {
 	context.drawImage(video, 0, 0, 640, 480);
 });
