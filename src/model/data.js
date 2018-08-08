@@ -1,5 +1,4 @@
 
-
 window.createVisitantInFirebase = (name, dni, search, reason) => {
     (firebase.database().ref().child('users')).push({
         // visitantId:firebase.auth().currentUser.uid,
@@ -63,5 +62,7 @@ window.viewImageCamera = (video, canvas, img, btnSave) => {
         let imgData = canvas.toDataURL('image/png');
         img.setAttribute('src', imgData);
     })
+
+    
 }
 
