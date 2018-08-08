@@ -1,19 +1,21 @@
 header {
-    background-color: #FDD005;
-    margin-bottom: 5%;
+	background-color: #FDD005;
+	margin-bottom: 5%;
 }
+
 header img {
-    margin: 2%;
+	margin: 2%;
 }
 
 i {
-    font-size: 3em;
+	font-size: 3em;
 }
 
 sub {
-    color: #b3b3b3;
+	color: #b3b3b3;
 }
+
 #img-visitant {
-    width: 700px;
-    height: 500px;
+	width: 700px;
+	height: 500px;
 }
