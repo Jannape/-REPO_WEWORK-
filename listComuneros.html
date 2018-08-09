@@ -1,63 +1,46 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Comunal Coworking</title>
-    <link rel="stylesheet" href="src/view/assets/css/style-register.css">
-    <link rel="stylesheet" href="src/view/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="src/view/assets/css/bootstrap.css">
-    <link rel="stylesheet" href="src/view/assets/css/bootstrap-grid.css">
-    <link rel="stylesheet" href="src/view/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-        crossorigin="anonymous">
-    <script src="src/view/assets/js/jquery-3.3.1.slim.min.js"></script>
-    <script src="src/view/assets/js/bootstrap.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Comunal Coworking</title>
+  <link rel="stylesheet" href="src/view/assets/css/style-register.css">
+  <link rel="stylesheet" href="src/view/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="src/view/assets/css/bootstrap.css">
+  <link rel="stylesheet" href="src/view/assets/css/bootstrap-grid.css">
+  <link rel="stylesheet" href="src/view/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+
+  <script src="src/view/assets/js/jquery-3.3.1.slim.min.js"></script>
+  <script src="src/view/assets/js/popper.min.js"></script>
+  <script src="src/view/assets/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <header class="text-center">
-        <img src="./src/view/assets/img/comunal-logo.png">
-    </header>
-    <div class="container">
-        <form id="register-visitant">
-            <div class="input-group mb-3">
-                <div class="alert alert-light" role="alert">
-                    Busca a nuestros Comuneros
-                </div>
-            </div>
-            <div>
-                <div>
-                    <input type="text" id="search" name="search" style="margin: 10px;width: 165px;" onkeyup="filter()">
-                </div>
-
-            </div>
-            <div class="input-group mb-3">
-                <input id="search-visitant" onkeyup="filterComuneros()" type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
-                <div class="input-group-append">
-                    <button  class="btn btn-outline-secondary" type="button" id="button-addon2">Buscar</button>
-                </div> 
-            </div>
-            <table id="table-comuneros" class="table table-hover">
-                <thead>
-                    <tr>
-                      
-                        <th scope="col">Nombre</th>
-                       
-                    </tr>
-                </thead>
-                <tbody id="tbl-list-comuneros">
-     
-                </tbody>
-            </table>
-        </form>
-    </div>
+  <header class="text-center">
+    <img src="./src/view/assets/img/comunal-logo.png">
+  </header>
+  <div class="container">
+    <form id="register-visitant">
+      <div class="input-group mb-3">
+        <div class="alert alert-light" role="alert">
+          Busca a nuestros Comuneros
+        </div>
+      </div>
+      <div class="input-group mb-3">
+        <input id="search-visitant" onkeyup="filterComuneros()" type="text" class="form-control" placeholder="Buscar...">
+      </div>
+      <div id="table-comuneros">
+        <ul id="tbl-list-comuneros" class="list-group">
+        </ul>
+      </div>
+    </form>
+  </div>
 </body>
 <script src="src/view/assets/js/bootstrap.js"></script>
 <script src="src/view/assets/js/popper.min.js"></script>
-
 <script src="src/model/comuneros.json"></script>
 <script src="src/controller/mainComuneros.js"></script>
-
 </html>

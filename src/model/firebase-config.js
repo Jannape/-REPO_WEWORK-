@@ -8,5 +8,5 @@ var config = {
   };
   firebase.initializeApp(config);
 
-
+  window.referenceDatabase = firebase.database();
   

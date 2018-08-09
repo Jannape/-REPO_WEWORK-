@@ -1,118 +1,105 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Comunal Coworking</title>
-	<link rel="stylesheet" href="src/view/assets/css/style-register.css">
-	<link rel="stylesheet" href="src/view/assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="src/view/assets/css/bootstrap.css">
-	<link rel="stylesheet" href="src/view/assets/css/bootstrap-grid.css">
-	<link rel="stylesheet" href="src/view/assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-	  crossorigin="anonymous">
-	<script src="src/view/assets/js/jquery-3.3.1.slim.min.js"></script>
-	<script src="src/view/assets/js/bootstrap.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Comunal Coworking</title>
+  <link rel="stylesheet" href="src/view/assets/css/style-register.css">
+  <link rel="stylesheet" href="src/view/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="src/view/assets/css/bootstrap.css">
+  <link rel="stylesheet" href="src/view/assets/css/bootstrap-grid.css">
+  <link rel="stylesheet" href="src/view/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+  <script src="src/view/assets/js/jquery-3.3.1.slim.min.js"></script>
+  <script src="src/view/assets/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-	<header class="text-center">
-		<img src="./src/view/assets/img/comunal-logo.png">
-	</header>
-	<div class="container">
-		<form id="register-visitant">
-			<div class="form-row">
-				<div class="form-group col-sm-12">
-					<label for="name-visitant">Nombre</label>
-					<input type="text" class="form-control" id="name-visitant" placeholder="Escribe tu nombre" required>
-				</div>
-				<div class="form-group col-md-6">
-					<label for="option-document">Tipo de Documento</label>
-					<select id="option-document" class="form-control">
-						<option selected>Elige</option>
-						<option>DNI</option>
-						<option>Pasaporte</option>
-						<option>Carnet de extranjería</option>
-					</select>
-				</div>
-				<div class="form-group col-md-6">
-					<label for="company-visitant">Número de Documento</label>
-					<input type="text" class="form-control" id="dni-visitant" placeholder="Escribe tu # de documento" required>
-				</div>
-				<div class="form-group col-sm-12">
-					<label for="inputEmail">Email
-						<sub> (Opcional)</sub>
-					</label>
-					<input type="email" class="form-control" id="inputEmail" placeholder="Email">
-				</div>
-				<div class="form-group col-sm-12">
-					<label for="company-visitant">Empresa que visito
-						<sub> (Opcional)</sub>
-					</label>
-					<input type="text" class="form-control" id="company-visitant" placeholder="Escribe el nombre de la empresa que visitas">
-				</div>
-				<div class="form-group col-sm-12">
-					<!-- <label for="search-visitant">¿A quién buscas?
-						<sub> (Opcional)</sub>
-					</label>
-					<input type="text" class="form-control" id="search-visitant" placeholder="Escribe el nombre de la persona que visitas"> -->
-					<label for="search-visitant">¿A quién buscas?</label>
-					<input onkeyup="filterComuneros()" type="text" class="form-control" id="search-visitant" placeholder="Escribe el nombre de la persona que visitas">
-					<table class="table table-hover">
-							<thead>
-								<tr>
-					
-								</tr>
-							</thead>
-							<tbody id="tbl-list-comuneros">
-				 
-							</tbody>
-						</table>
-				</div>
-		
-					  
-				<div class="form-group col-sm-12">
-					<label for="reason-visitant">Motivo de tu visita
-						<sub> (Opcional)</sub>
-					</label>
-					<input type="text" class="form-control" id="reason-visitant" placeholder="Escribe el motivo de tu visita">
-				</div>
-				<div class="form-group col-sm-12">
-					<label for="reason-visitant">¿Deseas tomarte una foto?
-						<sub> (Opcional)</sub>
-					</label>
-					<div class="text-center">
-						<button type="button" id="active-camera" class="btn btn-primary btn-lg">
-							<i class="fas fa-camera"></i>
-						</button>
-					</div>
-				</div>
-			</div>
-		</form>
-		<div id="create-photo">
-			<video id="video" width="640" height="480" autoplay></video>
-			<canvas id="canvas" width="640" height="480"></canvas>
-			<div class="text-center">
-				<button type="button" id="btn-camera" class="btn btn-primary btn-lg">
-					<i class="fas fa-camera"></i>
-				</button>
-			</div>
-		</div>
-		<div class="text-center">
-			<button type="button" id="btn-register-visitant" class="btn btn-primary btn-lg btn-block">Enviar Datos </button>
-		</div>
-		<div id="cardVIsit">
-
-		</div>
-	</div>
+  <header class="text-center">
+    <img src="./src/view/assets/img/comunal-logo.png">
+  </header>
+  <div class="container">
+    <form id="register-visitant">
+      <div class="form-row">
+        <div class="form-group col-sm-12">
+          <label for="name-visitant">Nombre</label>
+          <input type="text" class="form-control" id="input-name-visited" placeholder="Escribe tu nombre" required>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="option-document">Tipo de Documento</label>
+          <select id="selected-docId" class="form-control">
+            <option selected>Elige</option>
+            <option value ="DNI">DNI</option>
+            <option value="Pasaporte">Pasaporte</option>
+            <option value="Carnet de Extranjeria">Carnet de extranjería</option>
+          </select>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="company-visitant">Número de Documento</label>
+          <input type="text" class="form-control" id="input-docId" placeholder="Escribe tu # de documento" required>
+        </div>
+        <div class="form-group col-sm-12">
+          <label for="inputEmail">Email
+            <sub> (Opcional)</sub>
+          </label>
+          <input type="email" class="form-control" id="input-email" placeholder="Email">
+        </div>
+        <div class="form-group col-sm-12">
+          <label for="company-visitant">Empresa que visito
+            <sub> (Opcional)</sub>
+          </label>
+          <input type="text" class="form-control" id="input-company" placeholder="Escribe el nombre de la empresa que visitas">
+        </div>
+        <div class="form-group col-sm-12">
+        
+          <label for="search-visitant">¿A quién buscas?</label>
+        </div>
+        <div class="form-group col-sm-12">
+          <label for="reason-visitant">Motivo de tu visita
+            <sub> (Opcional)</sub>
+          </label>
+          <input type="text" class="form-control" id="input-reason" placeholder="Escribe el motivo de tu visita">
+        </div>
+        <div class="form-group col-sm-12">
+          <label for="reason-visitant">¿Deseas tomarte una foto?
+            <sub> (Opcional)</sub>
+          </label>
+          <div class="text-center">
+            <button type="button" id="btn-camera" class="btn btn-primary btn-lg">
+              <i class="fas fa-camera"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </form>
+    <div id="create-photo">
+      <video id="video" width="640" height="480" autoplay></video>
+      <canvas id="canvas" width="640" height="480"></canvas>
+      <div class="text-center">
+        <button type="button" id="btn-camera" class="btn btn-primary btn-lg">
+          <i class="fas fa-camera"></i>
+        </button>
+      </div>
+    </div>
+    <div class="text-center">
+      <button type="button" id="btn-register-visitant" class="btn btn-primary btn-lg btn-block">Enviar Datos </button>
+    </div>
+    <div id="cardVIsit">
+    </div>
+  </div>
 </body>
 <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
 <script src="src/view/assets/js/bootstrap.js"></script>
 <script src="src/view/assets/js/popper.min.js"></script>
 <script src="src/model/firebase-config.js"></script>
-<script src="src/model/data.js"></script>
-<script src="src/controller/main.js"></script>
+<script src="src/model/registerVisited.js"></script>
+<script src="src/controller/mainRegisterVisited.js"></script>
+<!-- <script src="src/model/data.js"></script> -->
+
+<!-- <script src="src/controller/main.js"></script> -->
 <script src="src/model/comuneros.json"></script>
 <script src="src/controller/mainComuneros.js"></script>
+
 </html>
