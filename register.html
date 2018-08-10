@@ -1,5 +1,9 @@
 <html lang="en">
-
+<!-- falta cambiar  hacer  obtener el valor del select y enviarlo a firebase.
+falta agregar la función de foto.
+falta la funcion de email
+falta la vista de admin y listar todosl os visitantes.
+faltan test. -->
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -55,6 +59,15 @@
         <div class="form-group col-sm-12">
         
           <label for="search-visitant">¿A quién buscas?</label>
+          <input id="search-visitant" onkeyup="filterComuneros()" type="text" class="form-control" placeholder="Buscar...">
+          <select multiple class="form-control" id="exampleFormControlSelect2">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+
         </div>
         <div class="form-group col-sm-12">
           <label for="reason-visitant">Motivo de tu visita
@@ -62,6 +75,7 @@
           </label>
           <input type="text" class="form-control" id="input-reason" placeholder="Escribe el motivo de tu visita">
         </div>
+   
         <div class="form-group col-sm-12">
           <label for="reason-visitant">¿Deseas tomarte una foto?
             <sub> (Opcional)</sub>

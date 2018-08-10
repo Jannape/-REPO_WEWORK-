@@ -1,7 +1,6 @@
 const btnRegister = document.getElementById('btn-register-visitant');
 const formRegisterVisitant = document.getElementById('register-visitant');
 const takePhoto = document.getElementById('create-photo')
-
 let video = document.getElementById('video');
 let canvas = document.getElementById('canvas');
 let btnCamera = document.getElementById('btn-camera');
@@ -21,13 +20,12 @@ btnRegister.addEventListener('click', () => {
   takePhoto.style.display = 'none';
   btnRegister.style.display = 'none';
   cardVisit.innerHTML = confirmationVisitant;
-})
+});
 document.getElementById('active-camera').addEventListener('click', () => {
   takePhoto.style.display = 'block';
   viewImageCamera(video, canvas, img, btnCamera);
   formRegisterVisitant.style.display = 'none'
-})
-
+});
 document.getElementById("btn-camera").addEventListener("click", function () {
   context.drawImage(video, 0, 0, 640, 480);
 });
