@@ -8,8 +8,10 @@ btnRegister.addEventListener('click', (e) => {
     let inputEmail = document.getElementById('input-email');
     let inputCompany = document.getElementById('input-company');
     let inputReason = document.getElementById('input-reason');
+    let selectComunero = document.getElementById('tbl-list-comuneros');
+    let optionComunero =  selectComunero[ selectComunero.selectedIndex].value;
     
-    window.createVisited( inputNameVisited,optionTypeDocId,inputDocId,inputEmail,inputCompany,inputReason );
+    window.createVisited( inputNameVisited,optionTypeDocId,inputDocId,inputEmail,inputCompany,inputReason,optionComunero);
 
     // formRegisterVisitant.style.display = 'none'
     // takePhoto.style.display = 'none';

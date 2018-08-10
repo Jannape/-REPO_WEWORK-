@@ -1,5 +1,5 @@
 
-window.createVisited = (inputNameVisited, optionTypeDocId, inputDocId, inputEmail, inputCompany, inputReason) => {
+window.createVisited = (inputNameVisited, optionTypeDocId, inputDocId, inputEmail, inputCompany, inputReason,optionComunero) => {
     const dataTime = new Date();
     const mounth =dataTime.getMonth();
     const year =dataTime.getFullYear();
@@ -16,7 +16,8 @@ window.createVisited = (inputNameVisited, optionTypeDocId, inputDocId, inputEmai
         visitedEmail: inputEmail.value,
         visitedCompany: inputCompany.value,
         visitedReason: inputReason.value,
-        visitedFecha :fullTime
+        visitedFecha :fullTime,
+        visitedComunero:optionComunero
     }).then(() => {
         console.log('error');
     })

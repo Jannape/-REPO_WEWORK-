@@ -14,7 +14,7 @@ fetch('src/model/comuneros.json')
       for (const iterator of listFilter) {
         console.log(iterator.nombre);
         tblListComuneros.innerHTML += `
-                <option  value="${iterator.nombre}" class="list-group-item" value= >${iterator.nombre}</option>`
+                <option  value="${iterator.nombre}" value= >${iterator.nombre}</option>`
          
       }
       console.log(listFilter);
